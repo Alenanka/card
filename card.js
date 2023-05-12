@@ -65,7 +65,7 @@ card =
       </span>
    </div>
    <div class="order">
-   <img src="/img/${arrcards[i].order}" alt="">
+   <img src="img/${arrcards[i].order}" alt="">
    </div> 
 </div>`;
 cards.innerHTML += card;
