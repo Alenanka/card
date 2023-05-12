@@ -1,7 +1,6 @@
 
 let arrcards = 
-[
-  card1 = {
+[card1 = {
     poster: "poster.png",
     type: "type.png",
     sale: "sale.png",
