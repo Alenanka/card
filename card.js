@@ -47,9 +47,9 @@ let card = "";
 card = 
 `<div class="card">
     <div class="poster">
-      <img src="/img/${arrcards[i].poster}"> 
+      <img src="img/${arrcards[i].poster}"> 
       ${getSale (arrcards[i].promotion)}
-      <img src="/img/${arrcards[i].type}">
+      <img src="img/${arrcards[i].type}">
     </div>
     <div class="title">
       <div> ${arrcards[i].title1}</div>
@@ -84,9 +84,9 @@ function getSale (promo)
 {
     if (promo == true)
     {
-    return `<img src="/img/${arrcards[i].sale}">`;
+    return `<img src="img/${arrcards[i].sale}">`;
     }
-    return `<img src="/img/${arrcards[i].sale}"  style="visibility: hidden;">`;
+    return `<img src="img/${arrcards[i].sale}"  style="visibility: hidden;">`;
 }
 function getStars(star)
 {   
